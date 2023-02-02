@@ -31,3 +31,7 @@ def trading_days():
 	if request.method == 'GET':
 		return list_trading_days()
 
+if __name__ == "__main__":
+	# run with: python3 [name-of-this-file]
+    app.run(host='139.144.237.124', port=5000)
+
